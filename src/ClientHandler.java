@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.Socket;
+import java.nio.charset.StandardCharsets;
 
 public class ClientHandler implements Runnable {
 
@@ -16,9 +17,9 @@ public class ClientHandler implements Runnable {
     @Override
     public void run() {
         try ( // Use try-with-resources to ensure proper closing of streams
-              Socket clientSocket = this.clientSocket; // Avoid unnecessary reassignment
+              Socket clientSocket = this.clientSocket;
               InputStream inputStream = clientSocket.getInputStream();
-              InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
+              InputStreamReader inputStreamReader = new InputStreamReader(inputStream, StandardCharsets.UTF_8);
               BufferedReader reader = new BufferedReader(inputStreamReader);
               DataOutputStream outputStream = new DataOutputStream(clientSocket.getOutputStream())) {
 
