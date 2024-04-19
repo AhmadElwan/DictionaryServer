@@ -37,8 +37,7 @@ public class Client {
                 bufferedWriter.newLine();
                 bufferedWriter.flush();
                 String response = bufferedReader.readLine();
-                System.out.println("Received response: " + response); // Debugging message
-                System.out.println(response); // Print the server's response
+                System.out.println("Meaning : " + response); // Debugging message
             } catch (IOException e) {
                 System.err.println("Error sending or receiving message: " + e.getMessage());
                 closeEverything();

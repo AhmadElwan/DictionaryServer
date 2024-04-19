@@ -31,7 +31,7 @@ public class ClientHandler implements Runnable {
 
             System.out.println("Found word: " + word + (definition != null ? " (definition found)" : " (definition not found)"));
 
-            // Construct response message
+            // Construct response message (always set the message)
             String message = definition != null ? definition : "Word not found";
 
             // Send the response message back to the client using UTF-8 encoding

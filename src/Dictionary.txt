@@ -1,48 +1,48 @@
-"apple": "a round fruit with red or green skin and a white interior"
-"ball": "a round object that is used in various sports and games"
-"car": "a four-wheeled vehicle used for transportation"
-"dog": "a domesticated carnivorous mammal, typically kept as a pet or for work"
-"eat": "to put food into the mouth and chew and swallow it"
-"fish": "a limbless cold-blooded vertebrate animal with gills and fins"
-"good": "of high quality; satisfactory"
-"house": "a building for human habitation, especially one that is lived in by a family or small group of people"
-"jump": "to push oneself off a surface and into the air using the muscles in one's legs and feet"
-"kind": "having or showing a friendly, generous, and considerate nature"
-"light": "the natural agent that stimulates sight and makes things visible"
-"moon": "the natural satellite of the Earth, visible chiefly at night by reflected light from the sun"
-"new": "not existing before; made, introduced, or discovered recently"
-"orange": "a round juicy citrus fruit with a tough bright reddish-yellow rind"
-"play": "to engage in activity for enjoyment and recreation"
-"quiet": "making little or no noise"
-"red": "of a color at the end of the spectrum next to orange and opposite violet"
-"sun": "the star around which the Earth orbits"
-"time": "the indefinite continued progress of existence and events in the past, present, and future"
-"under": "extending or directly below something"
-"van": "a covered motor vehicle used for transporting goods or people"
-"water": "a colorless, transparent, odorless liquid that forms the seas, lakes, rivers, and rain"
-"yellow": "of the color between green and orange in the spectrum"
-"zebra": "an African wild horse with black-and-white stripes"
-"air": "the invisible gaseous substance surrounding the earth, a mixture mainly of oxygen and nitrogen"
-"baby": "a very young child, especially one newly or recently born"
-"cake": "an item of soft sweet food made from a mixture of flour, fat, eggs, sugar, and other ingredients"
-"door": "a hinged, sliding, or revolving barrier at the entrance to a building, room, or vehicle"
-"egg": "an oval or round object laid by a female bird, reptile, fish, or invertebrate, usually containing a developing embryo"
-"flower": "the seed-bearing part of a plant, consisting of reproductive organs (stamens and carpels) that are typically surrounded by a brightly colored corolla (petals) and a green calyx (sepals)"
-"girl": "a female child"
-"hat": "a shaped covering for the head worn for warmth, as a fashion item, or as part of a uniform"
-"ice": "frozen water, a brittle, transparent crystalline solid"
-"juice": "the liquid obtained from or present in fruit or vegetables"
-"kite": "a toy consisting of a light frame with thin material stretched over it, flown in the wind at the end of a long string"
-"lion": "a large tawny-colored cat that lives in prides, found in Africa and northwestern India"
-"mouse": "a small rodent with a pointed snout and typically a long tail, found chiefly in Europe, Asia, and North America"
-"nest": "a structure or place made or chosen by a bird for laying eggs and sheltering its young"
-"pencil": "a long, thin object used for writing or drawing, consisting of a thin stick of graphite enclosed in a long thin piece of wood or fixed in a metal or plastic case"
-"queen": "the female ruler of an independent state, especially one who inherits the position by right of birth"
-"rain": "moisture condensed from the atmosphere that falls visibly in separate drops"
-"table": "a piece of furniture with a flat top and one or more legs, providing a level surface on which objects may be placed"
-"umbrella": "a device consisting of a circular canopy of cloth on a folding metal frame supported by a central rod, used as protection against rain or sometimes sun"
-"vase": "a decorative container, typically made of glass or china and used as an ornament or for displaying cut flowers"
-"window": "an opening in the wall or roof of a building or vehicle that is fitted with glass or other transparent material in a frame to admit light or air and allow people to see out"
-"xylophone": "a musical instrument played by striking a row of wooden bars of different lengths with mallets"
-"yacht": "a medium-sized sailing boat equipped for cruising or racing"
-"zeppelin": "a large German dirigible airship of the early 20th century, long and cylindrical in shape and with a rigid framework"
+apple: a round fruit with red or green skin and a white interior
+ball: a round object that is used in various sports and games
+car: a four-wheeled vehicle used for transportation
+dog: a domesticated carnivorous mammal, typically kept as a pet or for work
+eat: to put food into the mouth and chew and swallow it
+fish: a limbless cold-blooded vertebrate animal with gills and fins
+good: of high quality; satisfactory
+house: a building for human habitation, especially one that is lived in by a family or small group of people
+jump: to push oneself off a surface and into the air using the muscles in one's legs and feet
+kind: having or showing a friendly, generous, and considerate nature
+light: the natural agent that stimulates sight and makes things visible
+moon: the natural satellite of the Earth, visible chiefly at night by reflected light from the sun
+new: not existing before; made, introduced, or discovered recently
+orange: a round juicy citrus fruit with a tough bright reddish-yellow rind
+play: to engage in activity for enjoyment and recreation
+quiet: making little or no noise
+red: of a color at the end of the spectrum next to orange and opposite violet
+sun: the star around which the Earth orbits
+time: the indefinite continued progress of existence and events in the past, present, and future
+under: extending or directly below something
+van: a covered motor vehicle used for transporting goods or people
+water: a colorless, transparent, odorless liquid that forms the seas, lakes, rivers, and rain
+yellow: of the color between green and orange in the spectrum
+zebra: an African wild horse with black-and-white stripes
+air: the invisible gaseous substance surrounding the earth, a mixture mainly of oxygen and nitrogen
+baby: a very young child, especially one newly or recently born
+cake: an item of soft sweet food made from a mixture of flour, fat, eggs, sugar, and other ingredients
+door: a hinged, sliding, or revolving barrier at the entrance to a building, room, or vehicle
+egg: an oval or round object laid by a female bird, reptile, fish, or invertebrate, usually containing a developing embryo
+flower: the seed-bearing part of a plant, consisting of reproductive organs (stamens and carpels) that are typically surrounded by a brightly colored corolla (petals) and a green calyx (sepals)
+girl: a female child
+hat: a shaped covering for the head worn for warmth, as a fashion item, or as part of a uniform
+ice: frozen water, a brittle, transparent crystalline solid
+juice: the liquid obtained from or present in fruit or vegetables
+kite: a toy consisting of a light frame with thin material stretched over it, flown in the wind at the end of a long string
+lion: a large tawny-colored cat that lives in prides, found in Africa and northwestern India
+mouse: a small rodent with a pointed snout and typically a long tail, found chiefly in Europe, Asia, and North America
+nest: a structure or place made or chosen by a bird for laying eggs and sheltering its young
+pencil: a long, thin object used for writing or drawing, consisting of a thin stick of graphite enclosed in a long thin piece of wood or fixed in a metal or plastic case
+queen: the female ruler of an independent state, especially one who inherits the position by right of birth
+rain: moisture condensed from the atmosphere that falls visibly in separate drops
+table: a piece of furniture with a flat top and one or more legs, providing a level surface on which objects may be placed
+umbrella: a device consisting of a circular canopy of cloth on a folding metal frame supported by a central rod, used as protection against rain or sometimes sun
+vase: a decorative container, typically made of glass or china and used as an ornament or for displaying cut flowers
+window: an opening in the wall or roof of a building or vehicle that is fitted with glass or other transparent material in a frame to admit light or air and allow people to see out
+xylophone: a musical instrument played by striking a row of wooden bars of different lengths with mallets
+yacht: a medium-sized sailing boat equipped for cruising or racing
+zeppelin: a large German dirigible airship of the early 20th century, long and cylindrical in shape and with a rigid framework
