@@ -109,6 +109,5 @@ public class Client {
 
         Client client = new Client(serverAddress, port);
         client.sendMessage();
-        //client.closeEverything(); // Close resources are closed automatically using a try-with-resources in the sendMessage method
     }
 }
