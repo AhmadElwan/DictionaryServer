@@ -55,7 +55,7 @@ public class Client {
                 bufferedWriter.newLine();
                 bufferedWriter.flush();
                 String response = bufferedReader.readLine();
-                System.out.println("Meaning : " + response); // Debugging message
+                System.out.println(response != null ? " Meaning found: " + response : "Word not found !!");
             } catch (IOException e) {
                 System.err.println("Error sending or receiving message: " + e.getMessage());
                 closeEverything();
