@@ -6,17 +6,33 @@ import java.io.InputStreamReader;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * This class represents a ClientHandler object that handles communication
+ * with an individual client connected to the server. It implements the
+ * Runnable interface to enable execution in a separate thread.
+ */
 public class ClientHandler implements Runnable {
 
     private Socket clientSocket;
 
+    /**
+     * Constructor to create a ClientHandler object for a specific client socket.
+     *
+     * @param clientSocket The Socket object representing the connected client.
+     */
     public ClientHandler(Socket clientSocket) {
         this.clientSocket = clientSocket;
     }
 
+    /**
+     * This method implements the logic for handling a client connection.
+     * It reads the word sent by the client, looks up the definition in the
+     * server's dictionary (accessed through the static getDefinition method),
+     * and sends the definition back to the client using UTF-8 encoding.
+     */
     @Override
     public void run() {
-        try ( // Use try-with-resources to ensure proper closing of streams
+        try ( // Use try-with-resources for automatic closing of streams
               Socket clientSocket = this.clientSocket;
               InputStream inputStream = clientSocket.getInputStream();
               InputStreamReader inputStreamReader = new InputStreamReader(inputStream, StandardCharsets.UTF_8);
@@ -25,20 +41,19 @@ public class ClientHandler implements Runnable {
 
             // Read the word sent by the client
             String word = reader.readLine();
+            System.out.println("Client requested definition for: " + word); // Optional logging
 
-            // Look up the word definition in the server's dictionary (access through static variable)
-            String definition = Server.dictionary.get(word);
+            // Look up the word definition in the server's dictionary (static access)
+            String definition = Server.getDefinition(word);
 
-            System.out.println("Found word: " + word + (definition != null ? " (definition found)" : " (definition not found)"));
-
-            // Construct response message (always set the message)
-            String message = definition != null ? definition : "Word not found";
+            // Prepare the response message (definition or "Word not found")
+            String response = definition != null ? definition : "Word not found";
 
             // Send the response message back to the client using UTF-8 encoding
-            outputStream.writeUTF(message);
+            outputStream.writeUTF(response);
 
         } catch (IOException e) {
-            e.printStackTrace();
+            e.printStackTrace(); // Log or handle IOException appropriately
         }
     }
 }

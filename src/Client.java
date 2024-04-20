@@ -7,8 +7,8 @@ import java.net.Socket;
 import java.util.Scanner;
 
 /**
- * This class represents a client that can connect to a dictionary server
- * and look up word definitions.
+ * This class represents a client application that can connect to a dictionary server,
+ * send word look-up requests, and receive word definitions.
  */
 public class Client {
 
@@ -21,7 +21,7 @@ public class Client {
     private BufferedWriter bufferedWriter;
 
     /**
-     * Constructor to create a client object and connect to the server.
+     * Constructor to create a Client object and connect to the server.
      *
      * @param serverAddress The server address to connect to.
      * @param port The port number to connect on.
@@ -55,7 +55,7 @@ public class Client {
                 bufferedWriter.newLine();
                 bufferedWriter.flush();
                 String response = bufferedReader.readLine();
-                System.out.println(response != null ? " Meaning found: " + response : "Word not found !!");
+                System.out.println(response != null ? "Meaning found: " + response : "Word not found !!");
             } catch (IOException e) {
                 System.err.println("Error sending or receiving message: " + e.getMessage());
                 closeEverything();
@@ -109,5 +109,6 @@ public class Client {
 
         Client client = new Client(serverAddress, port);
         client.sendMessage();
+        //client.closeEverything(); // Close resources are closed automatically using a try-with-resources in the sendMessage method
     }
 }
