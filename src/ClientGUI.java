@@ -1,8 +1,6 @@
 import javax.swing.*; // Import libraries for Swing GUI components
-
 import java.awt.*;  // Import libraries for layout managers
 import java.awt.event.*; // Import libraries for action listeners
-
 import java.io.BufferedReader; // Import libraries for reading data from socket
 import java.io.BufferedWriter; // Import libraries for writing data to socket
 import java.io.IOException; // Import library for handling IO exceptions
